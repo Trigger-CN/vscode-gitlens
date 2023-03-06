@@ -371,7 +371,7 @@ export class SubscriptionService implements Disposable {
 	@gate()
 	@log()
 	async resendVerification(): Promise<boolean> {
-		if (true) return true;
+		return true;
 
 		// const scope = getLogScope();
 
